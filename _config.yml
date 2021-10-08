@@ -40,7 +40,7 @@ gitment:
     client_secret: 72cc0f28e46da794cf78278e8d84593d7618511f
 
 url: "https://xiaxuele.github.io"
-imgrepo: "https://bit-ranger.github.io/blog/static/img"
+imgrepo: "https://xiaxuele.github.io/static/img"
 
 
 #url: "http://127.0.0.1:4000"
