@@ -32,14 +32,14 @@ email: sincerebravefight@gmail.com
 description: ""
 github:
   username: bit-ranger
-swiftype:
-  searchId: iXZyPokVfxFaBTvi64Y6
+#swiftype:
+#  searchId: iXZyPokVfxFaBTvi64Y6
 gitment:
     repo: blog
-    client_id: a6fb73b3e790e234bab8
-    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+    client_id: 6f82cf01ce005a659c48
+    client_secret: 72cc0f28e46da794cf78278e8d84593d7618511f
 
-url: "https://bit-ranger.github.io/blog"
+url: "https://xiaxuele.github.io"
 imgrepo: "https://bit-ranger.github.io/blog/static/img"
 
 
