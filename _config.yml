@@ -6,6 +6,7 @@ avatar: /touxiang.jpeg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
+remote_theme: https://github.com/vszhub/not-pure-poole
 
 # Gems
 plugins:
@@ -16,8 +17,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
   
-remote_theme: vszhub/not-pure-poole
-
 # Optimize Jekyll
 exclude:
   - .editorconfig
