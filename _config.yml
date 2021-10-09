@@ -16,7 +16,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
   
-remote_theme: /not-pure-poole
+remote_theme: vszhub/not-pure-poole
 
 # Optimize Jekyll
 exclude:
@@ -31,13 +31,12 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-logo: logo.png
-social:
-  name: xiaxuele
-  links:
-    - https://github.com/xiaxuele
-google_site_verification: xxxxx
-lang: en
+- title: Email
+  url: mailto://xiaxuele10086@163.com
+  icon: fas fa-envelope
+- title: GitHub
+  url: https://github.com/xiaxuele/
+  icon: fab fa-github
 
 sass:
   sass_dir: _sass
