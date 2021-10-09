@@ -1,48 +1,59 @@
-plugins: [jekyll-paginate]
+# Setup
+title: Not Pure Poole
+description: A simple, beautiful, and powerful Jekyll theme for blogs
+url: https://vszhub.github.io
+avatar: /avatar.jpeg
+paginate: 5
+permalink: pretty
+cover_image: /bg.jpeg
 
-permalink: /:categories/:title/
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input:  GFM
-  syntax_highlighter: rouge
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
 
+# Optimize Jekyl SEO Tag
+twitter:
+  username: vszhub
+  card: summary
+logo: logo.png
+social:
+  name: Songzi Vong
+  links:
+    - https://twitter.com/vszhub
+    - https://github.com/vszhub
+google_site_verification: xxxxx
+lang: en
 
-paginate: 10
-paginate_path: "page/:num"
-baseurl: ""
+sass:
+  sass_dir: _sass
+  style: :compressed
 
+# Options
 
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      styles : [highlight.css,gitment.css,post.css]
-      scripts : [gitment.js, post.js]
+# Replace this value and uncomment to enable Disqus
+# disqus: xxxxxx
 
-
-
-title: "xiaxuele"
-email: xiaxuele10086@163.com
-description: ""
-github:
-  username: xiaxuele
-#swiftype:
-#  searchId: iXZyPokVfxFaBTvi64Y6
-gitment:
-    repo: blog
-    client_id: 6f82cf01ce005a659c48
-    client_secret: 72cc0f28e46da794cf78278e8d84593d7618511f
-
-url: "https://xiaxuele.github.io"
-imgrepo: "https://xiaxuele.github.io/static/img"
-
-
-#url: "http://127.0.0.1:4000"
-#imgrepo: "http://127.0.0.1:4000/static/img"
-
+# Specify the author for blog posts
+author:
+  name: Songzi Vong
+  url: https://github.com/vszhub/
+  email: vszhub@gmail.com
