@@ -6,7 +6,7 @@ avatar: /touxiang.jpeg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
-remote_theme: https://github.com/vszhub/not-pure-poole
+remote_theme: https://github.com/vszhub/not-pure-poole   # 这里使用了github上的theme
 timezone: Asia/Shanghai
 
 # Gems
